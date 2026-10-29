@@ -13,7 +13,6 @@ This repository contains my weekly projects and practice work from the internshi
 - HelloWorld.java: my first Java program, which prints "Hello World".
 
 ## Week 2: Core Concepts and Skills
-Folder: week2-core-concepts
 
 | File | Concept practised |
 |------|-------------------|
