@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Profile</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #eef2f7; text-align: center; padding: 30px; }
+    .card { background: white; max-width: 380px; margin: auto; padding: 24px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.15); }
+    h1 { color: #1f3864; }
+    button { background: #1f3864; color: white; border: none; padding: 10px 18px; border-radius: 6px; cursor: pointer; margin: 5px; }
+    input { padding: 8px; width: 60%; }
+    li { text-align: left; margin: 6px 0; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Suchi Upadhyay</h1>
+    <p>Full Stack Developer Intern at YuvaIntern</p>
+
+    <button onclick="addClick()">Click me</button>
+    <p id="count">Clicks: 0</p>
+
+    <h3>My To-Do List</h3>
+    <input type="text" id="task" placeholder="Enter a task">
+    <button onclick="addTask()">Add</button>
+    <ul id="list"></ul>
+  </div>
+
+  <script>
+    let clicks = 0;
+    function addClick() {
+      clicks++;
+      document.getElementById("count").innerText = "Clicks: " + clicks;
+    }
+    function addTask() {
+      let text = document.getElementById("task").value;
+      if (text === "") { alert("Please type a task!"); return; }
+      let li = document.createElement("li");
+      li.innerText = text;
+      document.getElementById("list").appendChild(li);
+      document.getElementById("task").value = "";
+    }
+  </script>
+</body>
+</html>
