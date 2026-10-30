@@ -31,3 +31,7 @@ Java (JDK 17), Eclipse IDE, HTML, CSS, JavaScript, GitHub
 ## Week 3: Practical Implementation Project
 Folder: week3-expense-tracker
 An Expense Tracker web app built with HTML, CSS and JavaScript. See the README inside the folder for details.
+
+## Week 4: Testing and Quality Assurance
+Folder: week4-testing
+JUnit tests for a BankAccount class, plus manual test cases, bug fixes and a code review for the Expense Tracker. See the README inside the folder.
