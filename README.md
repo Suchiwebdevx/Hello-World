@@ -27,3 +27,7 @@ This repository contains my weekly projects and practice work from the internshi
 
 ## Tools Used
 Java (JDK 17), Eclipse IDE, HTML, CSS, JavaScript, GitHub
+
+## Week 3: Practical Implementation Project
+Folder: week3-expense-tracker
+An Expense Tracker web app built with HTML, CSS and JavaScript. See the README inside the folder for details.
